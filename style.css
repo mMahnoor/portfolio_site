@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.h2-color{
+    color: rgb(0, 150, 150);
+}
+
+.contact-background{
+    background-image: url("./SVGs/contact.svg");
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.skills-background{
+    background-image: url("./SVGs/edu.svg");
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: black;
+}
