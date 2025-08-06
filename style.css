@@ -20,10 +20,54 @@
     background-blend-mode: overlay;
 }
 
+.btn-color{
+    background-color: rgb(1, 131, 131);
+}
+
+.btn-outline-color{
+    background-color: transparent;
+    color: rgb(22, 165, 165);
+    border: 1px solid rgb(24, 206, 206);
+}
+
 body{
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     background-color: black;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* custom breakpoints */
+@media (max-width: 576px) {
+    .card-contact{
+      width: 90%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px){
+    .card-contact{
+        width: 75%;
+    }
+}
+@media (min-width: 769px){
+    .card-contact{
+        width: 50%;
+    }
+}
+
+@media (max-width: 991px){
+    .rounded-custom{
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+}
+@media (min-width: 992px){
+    .rounded-custom{
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
 }
