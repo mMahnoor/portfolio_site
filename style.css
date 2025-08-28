@@ -1,87 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lavishly+Yours&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oleo+Script:wght@400;700&family=Story+Script&display=swap");
 
 .cursor-pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.h2-color{
-    color: rgb(0, 150, 150);
+.h2-color {
+  color: rgb(0, 150, 150);
 }
 
-.contact-background{
-    background-image: url("./SVGs/contact.svg");
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
+.contact-background {
+  background-image: url("./SVGs/contact.svg");
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
 }
 
-.skills-background{
-    background-image: url("./SVGs/edu.svg");
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
+.skills-background {
+  background-image: url("./SVGs/edu.svg");
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
 }
 
-.btn-color{
-    background-color: rgb(1, 131, 131);
+.btn-color {
+  background-color: rgb(1, 131, 131);
 }
 
-.btn-color:hover{
-    background-color: rgb(0, 193, 193);
+.btn-color:hover {
+  background-color: rgb(0, 193, 193);
 }
 
-.btn-outline-color{
-    background-color: transparent;
-    color: rgb(22, 165, 165);
-    border: 1px solid rgb(24, 206, 206);
+.btn-outline-color {
+  background-color: transparent;
+  color: rgb(22, 165, 165);
+  border: 1px solid rgb(24, 206, 206);
 }
 
-.btn-outline-color:hover{
-    background-color: rgb(22, 165, 165);
-    color: #fff;
+.btn-outline-color:hover {
+  background-color: rgb(22, 165, 165);
+  color: #fff;
 }
 
-.img-shadow{
-    box-shadow: 0 4px 8px 0 rgba(254, 247, 145, 0.2), 0 6px 20px 0 rgba(254, 228, 132, 0.19);
+.img-shadow {
+  box-shadow: 0 4px 8px 0 rgba(254, 247, 145, 0.2),
+    0 6px 20px 0 rgba(254, 228, 132, 0.19);
 }
 
-body{
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    background-color: black;
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+  background-color: black;
 }
 
-html, body {
-    overflow-x: hidden;
+html,
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* custom breakpoints */
 @media (max-width: 576px) {
-    .card-contact{
-      width: 90%;
-    }
+  .card-contact {
+    width: 90%;
+  }
 }
-@media (min-width: 577px) and (max-width: 768px){
-    .card-contact{
-        width: 75%;
-    }
+@media (min-width: 577px) and (max-width: 768px) {
+  .card-contact {
+    width: 75%;
+  }
 }
-@media (min-width: 769px){
-    .card-contact{
-        width: 50%;
-    }
+@media (min-width: 769px) {
+  .card-contact {
+    width: 50%;
+  }
 }
 
-@media (max-width: 991px){
-    .rounded-custom{
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
-    }
+@media (max-width: 991px) {
+  .rounded-custom {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
 }
-@media (min-width: 992px){
-    .rounded-custom{
-        border-bottom-left-radius: 5px;
-        border-top-left-radius: 5px;
-    }
+@media (min-width: 992px) {
+  .rounded-custom {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
 }
